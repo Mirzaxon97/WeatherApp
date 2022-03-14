@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color:white;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image:url(./img/beach-418742_960_720.webp) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    
+   
+}
+
+.container .card_l {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh; 
+    flex-direction: column;
+    background: rgba(192, 192, 192, 0.228);
+}
+
+
+
+
+
+
+.container .card_l #sbox{
+    width: 280px;
+    height: 45px;
+    border: none;
+    outline: none;
+    padding: 4px 12px;
+    font-size: 19px;
+    border-bottom: 4px solid rgb(204, 147, 15);
+    transition: 0.2s ease;
+    border-radius:5px ;
+    background:rgba(204, 204, 204, 0.586) ;
+ 
+}
+
+.container .card_l #sbox:focus{
+    border-bottom: 7px solid rgb(220, 110, 20);  
+    transition: 0.2s ease;
+
+}
+
+::placeholder{
+    color: white;
+   
+}
+
+
+/* card_r start */
+
+
+
+.container .card_r{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh; 
+    flex-direction: column;
+    background:rgba(0, 0, 0, 0.455) ;
+    
+    
+}
+
+.container .card_r .c_name{
+    font-size: 30px;
+   
+    
+}
+
+.container .card_r .date{
+    font-size: 22px;
+    position: relative;
+    left: -5rem;
+    
+}
+
+.container .card_r .temp{
+    font-size: 150px;
+    font-family:sans-serif ;
+    text-shadow:1px -2px 1px rgb(255,143, 68);
+}
+
+
+.container .card_r .temp span{
+    font-size: 80px;
+    font-family:sans-serif ;
+}
+
+.container .card_r .temp img{
+    width: 75px;
+    height: 75px;
+
+}
+
+.container .card_r .wt{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 8px;
+}
+
+.container .card_r .wt-type{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 8px;
+    margin: 12px;
+}
+
+
+@media only screen and (max-width:992px){
+    .container{
+        width: 100%;
+        height: 100vh;
+        background-image:url(./img/beach-418742_960_720.webp) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+       
+    }
+    
+    .container .card_l {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 100vh; 
+        flex-direction: column;
+        background: rgba(192, 192, 192, 0.228);
+    }
+    
+    
+    
+    
+    
+    
+    .container .card_l #sbox{
+        width: 280px;
+        height: 45px;
+        border: none;
+        outline: none;
+        padding: 4px 12px;
+        font-size: 19px;
+        border-bottom: 4px solid rgb(204, 147, 15);
+        transition: 0.2s ease;
+        border-radius:5px ;
+        background:rgba(204, 204, 204, 0.586) ;
+     
+    }
+    
+    .container .card_l #sbox:focus{
+        border-bottom: 7px solid rgb(220, 110, 20);  
+        transition: 0.2s ease;
+    
+    }
+    
+    ::placeholder{
+        color: white;
+       
+    }
+    
+    
+    /* card_r start */
+    
+    
+    
+    .container .card_r{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 100vh; 
+        /* padding: 0 2rem; */
+        flex-direction: column;
+        background:rgba(0, 0, 0, 0.455) ;
+        
+        
+    }
+    
+    .container .card_r .c_name{
+        font-size: 30px;
+        width: 70%;
+        line-height: 43px;
+       
+        
+    }
+    
+    .container .card_r .date{
+        font-size: 22px;
+        position: relative;
+        left: -2rem;
+        top: 1rem;
+        
+    }
+    
+    .container .card_r .temp{
+        font-size: 150px;
+        font-family:sans-serif ;
+        text-shadow:1px -2px 1px rgb(255,143, 68);
+    }
+    
+    
+    .container .card_r .temp span{
+        font-size: 80px;
+        font-family:sans-serif ;
+    }
+    
+    .container .card_r .temp img{
+        width: 75px;
+        height: 75px;
+    
+    }
+    
+    .container .card_r .wt{
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 8px;
+    }
+    
+    .container .card_r .wt-type{
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 8px;
+        margin: 12px;
+    }
+}
+
+
+@media only screen and (max-width:768px){
+    .container{
+        width: 100%;
+        height:auto;
+        background-image:url(./img/beach-418742_960_720.webp) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        
+       
+    }
+    
+    .container .card_l {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 30vh; 
+        flex-direction: column;
+        background:rgba(192, 192, 192, 0.144);
+    }
+    
+    
+    
+    
+    
+    
+    .container .card_l #sbox{
+        width: 280px;
+        height: 45px;
+        border: none;
+        outline: none;
+        padding: 4px 12px;
+        font-size: 19px;
+        border-bottom: 4px solid rgb(204, 147, 15);
+        transition: 0.2s ease;
+        border-radius:5px ;
+        background:rgba(204, 204, 204, 0.586) ;
+     
+    }
+    
+    .container .card_l #sbox:focus{
+        border-bottom: 7px solid rgb(220, 110, 20);  
+        transition: 0.2s ease;
+    
+    }
+    
+    ::placeholder{
+        color: white;
+       
+    }
+    
+    
+    /* card_r start */
+    
+    
+    
+    .container .card_r{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 80vh; 
+        flex-direction: column;  
+        background:rgba(192, 192, 192, 0.144);  
+    }
+    
+    .container .card_r .c_name{
+        font-size: 30px;
+        width: 100%;
+        line-height: 43px;
+        position: relative;
+        top: -3rem;
+        text-align: center;
+       
+        
+    }
+    
+    .container .card_r .date{
+        font-size: 22px;
+        position: relative;
+        text-align: center;
+        top: -1rem;
+        
+    }
+    
+    .container .card_r .temp{
+        font-size: 150px;
+        font-family:sans-serif ;
+        text-shadow:1px -2px 1px rgb(255,143, 68);
+    }
+    
+    
+    .container .card_r .temp span{
+        font-size: 80px;
+        font-family:sans-serif ;
+    }
+    
+    .container .card_r .temp img{
+        width: 75px;
+        height: 75px;
+    
+    }
+    
+    .container .card_r .wt{
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 8px;
+    }
+    
+    .container .card_r .wt-type{
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 8px;
+        margin: 12px;
+    }
+}
+
+
+
+
+@media only screen and (max-width:586px){
+    .container{
+        width: 100%;
+        height:auto;
+        background-image:url(./img/beach-418742_960_720.webp) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        
+       
+    }
+    
+    .container .card_l {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 30vh; 
+        flex-direction: column;
+        background:rgba(192, 192, 192, 0.144);
+    }
+    
+    
+    
+    
+    
+    
+    .container .card_l #sbox{
+        width: 280px;
+        height: 45px;
+        border: none;
+        outline: none;
+        padding: 4px 12px;
+        font-size: 19px;
+        border-bottom: 4px solid rgb(204, 147, 15);
+        transition: 0.2s ease;
+        border-radius:5px ;
+        background:rgba(148, 143, 143, 0.356) ;
+     
+    }
+    
+    .container .card_l #sbox:focus{
+        border-bottom: 7px solid rgb(220, 110, 20);  
+        transition: 0.2s ease;
+    
+    }
+    
+    ::placeholder{
+        color: white;
+       
+    }
+    
+    
+    /* card_r start */
+    
+    
+    
+    .container .card_r{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 80vh; 
+        flex-direction: column;  
+        background:rgba(148, 143, 143, 0.356);  
+    }
+    
+    .container .card_r .c_name{
+        font-size: 25px;
+        width: 100%;
+        line-height: 43px;
+        position: relative;
+        top: -3rem;
+        text-align: center;
+       
+        
+    }
+    
+    .container .card_r .date{
+        font-size: 20px;
+        position: relative;
+        text-align: center;
+        top: -1rem;
+        
+    }
+    
+    .container .card_r .temp{
+        font-size: 120px;
+        font-family:sans-serif ;
+        text-shadow:1px -2px 1px rgb(255,143, 68);
+    }
+    
+    
+    .container .card_r .temp span{
+        font-size: 70px;
+        font-family:sans-serif ;
+    }
+    
+    .container .card_r .temp img{
+        width: 75px;
+        height: 75px;
+    
+    }
+    
+    .container .card_r .wt{
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 8px;
+    }
+    
+    .container .card_r .wt-type{
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 8px;
+        margin: 12px;
+    }
+}
+
+
+
+
+
+
+
+
